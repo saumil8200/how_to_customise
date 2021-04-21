@@ -288,6 +288,8 @@ header {
 
 .section__title--create {
     color: var(--clr-accent);
+    text-align: center;
+    align-items: center;
     position: relative;
 }
 
@@ -313,6 +315,7 @@ header {
 @media (min-width: 800px) {
     .components {
         display: flex;
+        justify-content: center;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
